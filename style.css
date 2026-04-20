@@ -1,0 +1,8 @@
+div {
+    background-color: rgb(255, 140, 0);
+}
+
+div.div1 {
+    background-color: rgb(77, 42, 143);
+    display:flex;
+}
