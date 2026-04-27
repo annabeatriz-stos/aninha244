@@ -1,0 +1,26 @@
+.quadrado1 {
+  background-color: rgb(182, 114, 228);
+  width: 100px;
+  height: 200px;
+  border: 1px solid #b546ff; 
+}
+
+.triangulo2 {
+  background-color: rgb(106, 0, 177);
+  width: 100px;
+  height: 200px;
+  border: 1px solid #b546ff; 
+}
+
+.circulo3 {
+  background-color: rgb(68, 15, 104);
+  width: 100px;
+  height: 200px;
+  border: 1px solid #b546ff; 
+}
+
+
+.pai {
+    display: flex;
+    flex-direction: row;
+}
