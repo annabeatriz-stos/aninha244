@@ -1,0 +1,282 @@
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.div-logo {
+  display: flex;
+  flex-direction: column; /* ícone em cima, texto embaixo */
+  justify-content: center;
+  align-items: center;
+}
+.div-menu ul {
+  display: flex;
+  gap: 30px;         /* espaço entre cada link */
+  list-style: none;  /* remove os pontinhos da lista */
+}
+/* ── Seção header ── */
+
+/* Container da nav: centraliza horizontalmente */
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+/* Lista de links: deixa os <li> em linha */
+.div-menu ul {
+  display: flex;
+  gap: 30px;         /* espaço entre cada link */
+  list-style: none;  /* remove os pontinhos da lista */
+}
+
+/* Cada item da lista: aparência de "pílula" */
+.div-menu ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #ffc400;
+  border-radius: 40px;    /* ← arredonde bastante para ficar pílula */
+  border: 5px solid #ff9100;
+  height: 40px;
+  width: 300px;
+}
+
+/* Texto dos links: sem sublinhado, negrito */
+.div-menu ul li a {
+  font-family: Arial;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #8a6d38;
+}
+
+/* Logo: empilha ícone e texto (coluna) */
+.div-logo {
+  display: flex;
+  flex-direction: column; /* ícone em cima, texto embaixo */
+  justify-content: center;
+  align-items: center;
+}
+
+.div-logo p {
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: #ddd3ed;
+}
+
+/* Imagem da logo: circular com fundo claro */
+#img-logo {
+  width: 60px;
+  height: 60px;
+  background-color: #e2e3f1;
+  border-radius: 60px; /* torna a imagem circular */
+  padding: 15px;
+}
+/* ── Seção hero ── */
+
+/* Container externo: centraliza o card */
+.container-conteudo-inicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Herda flex para as divs filhas também */
+.container-conteudo-inicial div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card lilás: texto à esquerda, imagem à direita */
+.div-conteudo-inicial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3bb66;
+  border-radius: 60px;  /* bordas bem arredondadas */
+  border: 2px solid #ffdfa2;
+}
+
+/* Lado esquerdo: coluna de texto */
+.section-texto-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Caixa branca interna do texto */
+.div-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 208, 160);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Título grande com fonte decorativa */
+.div-titulo h2 {
+  font-family: Stencil Std, fantasy;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 50px;
+  color: #ffae00;
+  padding: 10px;
+}
+
+.div-titulo p {
+  font-size: 25px;
+  color: #dbaa3f;
+  margin: 0px;
+  margin-bottom: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+/* Lado direito: imagem principal */
+.section-imagem-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#img-principal {
+  height: 500px;
+  width: 500px;
+}
+/* Ambos os botões compartilham o mesmo visual */
+#button-inscrever,
+#saiba-mais {
+  width: 250px;
+  padding: 15px;
+  border-radius: 20px;
+  font-family: Verdana, sans-serif;
+  background-color: #ffa600;
+  border: 1px solid #ff9102;
+  color: #000000;
+  font-size: 20px;
+  cursor: pointer; /* mostra o cursor de mão ao passar por cima */
+}
+/* ── Seção de cursos ── */
+
+/* Container: empilha os cards em coluna, centralizado */
+.container-conteudo-cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* Faixa de título azulada */
+.div-descricao-categorias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0b74e;
+  width: 100%;
+  height: 100px;
+  margin-top: 60px;
+}
+
+.div-descricao-categorias h2 {
+  font-family: Arial;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #e48d0a;
+}
+
+/* Cada card: imagem à esquerda, texto à direita */
+.div-conteudo-cursos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 40px;
+  background-color: #f0af55;
+  border: 1px solid #fffff1;
+  border-radius: 20px;
+  width: 60%;          /* não ocupa toda a largura */
+}
+
+.div-conteudo-cursos h3 {
+  font-family: Stencil Std, fantasy;
+  font-variant: small-caps;
+  font-size: 40px;
+  color: #d67506;
+}
+
+.div-conteudo-cursos p {
+  font-size: 22px;
+  color: #b45700;
+  width: 80%;
+}
+
+/* Imagem de cada curso: tamanho fixo */
+.div-conteudo-cursos img {
+  width: 300px;
+  height: 300px;
+}
+/* ── Footer ── */
+
+footer {
+  margin-top: 60px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column; /* empilha ícones e contatos */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 200px;
+  background-color: #e09855;
+}
+
+footer div p {
+  font-size: 25px;
+  color: #d3a981;
+  margin: 0px;
+}
+
+/* Ícones das redes: linha horizontal */
+.div-redes-sociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Contatos: email e telefone lado a lado */
+.div-contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.div-contatos p {
+  color: #fffff1;
+  font-size: 12px;
+}
+
+/* Tamanho dos ícones de redes sociais */
+#redeSocial {
+  width: 40px;
+  height: 40px;
+}
