@@ -1,0 +1,55 @@
+main{
+    display:flex;
+    background-color: rgb(238, 195, 215);
+}
+.esquerda{
+    background-color: rgb(241, 215, 241);
+}
+.direita{
+    border:solid black 4px;
+    background-color: rgb(235, 208, 245);
+    margin: 4%;
+    padding:4%
+}
+#nome, #E-mail, #numero{
+    border: 1px solid white ;
+    border-radius: 80px;
+    font-family: 
+          arial;
+    font-size: 16px;
+    background-color: rgb(207, 168, 243);
+    width: 400px;
+    height: 50px;
+}
+
+.select{
+    border: 1px solid white ;
+    border-radius: 80 px;
+    font-family: 
+          arial;
+    font-size: 16px;
+    background-color: rgb(230, 170, 230);
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+input::placeholder{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#botao {
+    background-color: rgb(152, 104, 230);
+    font-family: Arial;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 9000px;
+    text-align: center;
+    justify-self: center;
+}
+
+#botao:hover{
+
+}
