@@ -51,5 +51,7 @@ input::placeholder{
 }
 
 #botao:hover{
-
+ background-color: rgb(118, 155, 177);
+ border: 2px solid rgb(140, 180, 240);
+ color: rgb(181, 205, 226);
 }
